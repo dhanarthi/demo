@@ -1,0 +1,25 @@
+    1  yum install git -y
+    2  git
+    3  mkdir github
+    4  cd github/
+    5  git clone https://github.com/mdn/beginner-html-site-styled.git
+    6  ls
+    7  cd beginner-html-site-styled/
+    8  ls
+    9  ls -ls
+   10  ls -la
+   11  cd .git/
+   12  ls
+   13  cat config
+   14  cd ..
+   15  rm -rf .git
+   16  git init
+   17  ls
+   18  git remote add origin https://github.com/dhanarthi/demo.git
+   19  vim .git/config
+   20  ls
+   21  git add .
+   22  git commit -m "firstgithubcode"
+   23  git push origin main
+   24  vim .git/config
+   25  git push origin master
